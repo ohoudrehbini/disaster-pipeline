@@ -5,7 +5,7 @@
 1. [Project Introduction and motivation](#Project-Introduction-and-motivation)
 2. [Instullation](#Instullation)
 3. [File Description](#File-Description)
-4. [Analysis and Results](#Analysis and Results)
+4. [Analysis and Results](#Analysis-and-Results)
 5. [Licensing, Authors, and Acknowledgment](#Licensing-Authors-Acknowledgment)
 6. [Instructions](#Instruction)
 
@@ -60,7 +60,7 @@ Thus, The main goal of this project is to build an app (Screenshots below) that 
 
 ##### Model 
      - train_classifier.py: machine learning pipeline scripts to train and export a classifier
-     - classifier.pkl: output of the machine learning pipeline, i.e. a trained classifier
+     - disaster_model.pkl: output of the machine learning pipeline, i.e. a trained classifier
      
      
 ### Analysis and Results <a name="Analysis and Results"></a>
