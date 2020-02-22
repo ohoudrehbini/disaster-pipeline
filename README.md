@@ -1,14 +1,21 @@
 # disaster-pipeline
+
 ## Introduction: 
 ## Table of Contents
-1. [Installation and Usage](#installation-and-usage)
-2. [Configuration](#configuration)
-3. [Code of Conduct](#code-of-conduct)
-4. [Filing Issues](#filing-issues)
-5. [Frequently Asked Questions](#faq)
-6. [Releases](#releases)
-7. [Semantic Versioning Policy](#semantic-versioning-policy)
-8. [License](#license)
-9. [Team](#team)
-10. [Sponsors](#sponsors)
-11. [Technology Sponsors](#technology-sponsors)
+1. [Project Introduction and motivation](#Project-Introduction-and-motivation)
+2. [Instullation](#Instullation)
+3. [File Description](#File-Description)
+4. [Results](#Results)
+5. [Licensing, Authors, and Acknowledgment](#Licensing-Authors-Acknowledgment)
+6. [Instructions](#Instruction)
+
+
+### Instructions <a name="instructions"></a>
+1. Run the following commands in the project's root directory to set up your database and model.
+    - To run ETL pipeline that cleans data and stores in database
+        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+    - To run ML pipeline that trains classifier and saves
+        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+2. Run the following command in the app's directory to run your web app.
+    `python run.py`
+3. Go to http://0.0.0.0:3001/
