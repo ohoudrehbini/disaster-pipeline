@@ -4,8 +4,8 @@
 ## Table of Contents
 1. [Project Introduction and motivation](#Project-Introduction-and-motivation)
 2. [Instullation](#Instullation)
-3. [File Description](#File-Description)
-4. [Analysis and Results](#Analysis and Results)
+3. [File Description](# File-Description)
+4. [Analysis and Results](# Analysis and Results)
 5. [Licensing, Authors, and Acknowledgment](#Licensing-Authors-Acknowledgment)
 6. [Instructions](#Instruction)
 
@@ -15,38 +15,38 @@ Figure Fight are providing pre-labeld tweets and text messages from real life di
 Thus, The main goal of this project is to build an app (Screenshots below) that can help emergency workers analyze incoming messages and sort them into specific categories to speed up aid and contribute to more efficient distribution of people and other resources.
 
 ### Instullation <a name="instullation"></a>
-- ETL pipeline preparation : 
-import pandas as pd
-import numpy as np 
-from sqlalchemy import create_engine
-import sqlite3
-- ML pipeline disaster 
-import pandas as pd
-import numpy as np
-from sqlalchemy import create_engine
-from nltk.tokenize import word_tokenize , RegexpTokenizer
-from nltk.stem import WordNetLemmatizer
-from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
-from sklearn.multioutput import MultiOutputClassifier
-from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
-from sklearn.pipeline import Pipeline
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report
-from sklearn.model_selection import GridSearchCV
-from sklearn.decomposition import TruncatedSVD
-import pickle
-import sqlite3
-import nltk
-import re 
-import string
-from sklearn.metrics import precision_recall_fscore_support
-%matplotlib inline
-import matplotlib.pyplot as plt
+#### ETL pipeline preparation : 
+   - import pandas as pd
+   - import numpy as np 
+   - from sqlalchemy import create_engine
+   - import sqlite3
+#### ML pipeline disaster 
+   - import pandas as pd
+   - import numpy as np
+   - from sqlalchemy import create_engine
+   - from nltk.tokenize import word_tokenize , RegexpTokenizer
+   - from nltk.stem import WordNetLemmatizer
+   - from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
+   - from sklearn.multioutput import MultiOutputClassifier
+   - from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
+   - from sklearn.pipeline import Pipeline
+   - from sklearn.model_selection import train_test_split
+   - from sklearn.metrics import classification_report
+   - from sklearn.model_selection import GridSearchCV
+   - from sklearn.decomposition import TruncatedSVD
+   - import pickle
+   - import sqlite3
+   - import nltk
+   - import re 
+   - import string
+   - from sklearn.metrics import precision_recall_fscore_support
+   - %matplotlib inline
+   - import matplotlib.pyplot as plt
 
-download:
-nltk.download('punkt')
-nltk.download('wordent')
-nltk.download('stopwords')
+##### download:
+  - nltk.download('punkt')
+  - nltk.download('wordent')
+  - nltk.download('stopwords')
 
 ### File Description <a name="File Description"></a>
 ##### Data 
