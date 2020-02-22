@@ -4,8 +4,8 @@
 ## Table of Contents
 1. [Project Introduction and motivation](#Project-Introduction-and-motivation)
 2. [Instullation](#Instullation)
-3. [File Description](# File-Description)
-4. [Analysis and Results](# Analysis and Results)
+3. [File Description](#File-Description)
+4. [Analysis and Results](#Analysis and Results)
 5. [Licensing, Authors, and Acknowledgment](#Licensing-Authors-Acknowledgment)
 6. [Instructions](#Instruction)
 
@@ -65,24 +65,24 @@ Thus, The main goal of this project is to build an app (Screenshots below) that 
      
 ### Analysis and Results <a name="Analysis and Results"></a>
 ##### Analysis 
-####### Data Preparation
+###### Data Preparation
 - Modify the Category csv; split each category into a separate column
 - Merge Data from the two csv files (messages.csv & categories.csv)
 - remove duplicates and any non-categorized valued
 - create SQL database DisasterResponse.db for the merged data sets
-####### Text Preprocessing
+###### Text Preprocessing
 - Tokenize text
 - remove special characters
 - lemmatize text
-####### Build Machine Learning Pipeline
+###### Build Machine Learning Pipeline
 - Build Pipeline with countervectorizer and tfidtransformer
 - Seal pipeline with multioutput classifier with random forest
 - Train Pipeline (with Train/Test Split)
 - Print classification reports and accuracy scores
-####### Improve Model
+###### Improve Model
 - Preform GirdSearchCV
 - Find best parameters
-####### Export Model as .pkl File
+###### Export Model as .pkl File
 - use pickle.dump 
 
 ##### Results 
